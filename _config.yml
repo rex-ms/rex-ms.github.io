@@ -1,0 +1,37 @@
+# Site settings
+title: SANGMENG's Blog
+SEOTitle: 桑猛的博客 | SANGMENG's Blog
+header-img: img/header/post-bg-desk.png
+email: isangmeng@gmail.com
+description: "（网站介绍）这是桑猛的个人网站，目前处于测试状态，欢迎大家访问，一起交流学习."
+keyword: "SM,SANGMENG,桑猛，桑猛的博客"
+url: "https://isangmeng.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/isangmeng/isangmeng.github.io.git" # you code repository
+
+# SNS settings
+RSS: false
+github_username:    isangmeng
+#twitter_username:   暂无
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+#redcarpet:
+#    extensions: [ "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
