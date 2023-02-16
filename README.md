@@ -1,2 +1,2 @@
-# isangmeng.github.io
-Sang Meng's personal blog
+# rex-ms.github.io
+MS's personal blog
